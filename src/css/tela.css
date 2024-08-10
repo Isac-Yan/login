@@ -113,6 +113,10 @@ form .botao a {
     padding: 8px;
 }
 
+form .botao a abbr {
+    text-decoration: none;
+}
+
 form .botao a:hover {
     background-color: var(--cor2);
     color: white;
