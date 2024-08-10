@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/tela.css">
+    <link rel="stylesheet" href="src/css/media-query.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div id="img"></div>
+            <div id="login-tela">
+                <h1>Fazer Login</h1>
+                <p>Seja Bem-vindo(a) de volta.</p>
+                <form action="src/php/logar.php" method="post" autocomplete="on">
+                    <div class="preencher conteudo">
+                        <input type="email" name="email" id="iemail" placeholder="Coloque seu e-mail"
+                            autocomplete="email" maxlength="40" title="E-mail" required>
+                        <label for="iemail">logar</label>
+                    </div>
+                    <div class="preencher conteudo">
+                        <input type="password" name="senha" id="isenha" placeholder="Coloque sua senha"
+                            autocomplete="current-password" minlength="8" maxlength="20" title="senha" required>
+                        <label for="isenha">senha</label>
+                    </div>
+                    <div class="botao conteudo">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div class="botao conteudo">
+                        <a href="src/html/senha.html">Esqueci a senha</a>
+                        <!--  -->
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
