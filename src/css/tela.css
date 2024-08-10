@@ -37,8 +37,11 @@ section {
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    
     border-radius: 10px 10px 0px 0px;
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function: ease-out;
+    transform: translate(-50%, -50%);
 }
 
 #img {
